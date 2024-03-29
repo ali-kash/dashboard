@@ -8,9 +8,9 @@ import Users from './pages/users/Users'
 import Products from './pages/products/Products'
 import { Login } from './pages/login/Login'
 
-import { Topbar } from './components/topbar/Topbar'
-import { Sidebar } from './components/sidebar/Sidebar'
-import { Footer } from './components/footer/Footer'
+import { Topbar } from './components/global/Topbar'
+import { Sidebar } from './components/global/Sidebar'
+import { Footer } from './components/global/Footer'
 
 import './styles/global.scss'
 
