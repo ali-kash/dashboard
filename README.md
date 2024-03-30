@@ -1,8 +1,17 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Created this project using some basic technology to showcase an admin dashboard.
 
-Currently, two official plugins are available:
+Links in the sidebar navigation go to pages with specific content.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The content may include data tables, form, calendar, and various types of charts to showcase data.
+
+### Contacts (page) -
+
+A data table that utilizes multiple built in data filters.
+
+### Profile Form (page) -
+
+The form has validation using regex for some input fields. When submitting a valid form, the data will be displayed in the console.
+
+- [View Live](https://dashboard-sandy-gamma-59.vercel.app/)

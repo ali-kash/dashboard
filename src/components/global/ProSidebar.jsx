@@ -161,7 +161,7 @@ export const ProSidebar = () => {
 							setSelected={setSelected}
 						/>
 						<Item
-							title='Invoices Balances'
+							title='Invoices'
 							to='/invoices'
 							icon={<ReceiptOutlinedIcon />}
 							selected={selected}
