@@ -52,7 +52,7 @@ export const ProSidebar = () => {
 					backgroundColor: 'transparent !important',
 				},
 				'& .ps-menu-button': {
-					padding: '5px 35px 5px 20px !important',
+					padding: '0px 35px 0px 20px !important',
 				},
 				'& .ps-menu-button:hover': {
 					color: '#e0e0e0 !important',
@@ -83,7 +83,7 @@ export const ProSidebar = () => {
 						onClick={() => setIsCollapsed(!isCollapsed)}
 						icon={isCollapsed ? <MenuOutlinedIcon /> : undefined}
 						style={{
-							margin: '10px 0 20px 0',
+							margin: '5px 0 10px 0',
 							color: colors.grey[100],
 						}}
 					>
@@ -104,7 +104,7 @@ export const ProSidebar = () => {
 						)}
 					</MenuItem>
 					{!isCollapsed && (
-						<Box mb='25px'>
+						<Box mb='15px'>
 							<Box display='flex' justifyContent='center' alignItems='center'>
 								<img
 									alt='profile-user'
