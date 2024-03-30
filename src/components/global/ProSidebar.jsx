@@ -103,6 +103,7 @@ export const ProSidebar = () => {
 							</Box>
 						)}
 					</MenuItem>
+
 					{!isCollapsed && (
 						<Box mb='15px'>
 							<Box display='flex' justifyContent='center' alignItems='center'>
