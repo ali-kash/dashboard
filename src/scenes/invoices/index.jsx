@@ -31,9 +31,11 @@ const Invoices = () => {
 			headerName: 'Cost',
 			flex: 1,
 			renderCell: (params) => (
-				<Typography color={colors.greenAccent[500]}>
-					${params.row.cost}
-				</Typography>
+				<Box display='flex' pt='15px'>
+					<Typography color={colors.greenAccent[500]}>
+						${params.row.cost}
+					</Typography>
+				</Box>
 			),
 		},
 		{
@@ -59,8 +61,8 @@ const Invoices = () => {
 					'& .name-column--cell': {
 						color: colors.greenAccent[300],
 					},
-					'& .MuiDataGrid-columnHeaders': {
-						backgroundColor: colors.blueAccent[700],
+					'& .MuiDataGrid-columnHeader': {
+						backgroundColor: `${colors.blueAccent[700]} !important`,
 						borderBottom: 'none',
 					},
 					'& .MuiDataGrid-virtualScroller': {
