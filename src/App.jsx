@@ -34,7 +34,13 @@ function App() {
 				<CssBaseline />
 				<div className='app'>
 					<ProSidebar isSidebar={isSidebar} />
-					<main className='content'>
+					<main
+						style={{
+							display: 'flex',
+							flexDirection: 'column',
+							width: '100%',
+						}}
+					>
 						<Topbar setIsSidebar={setIsSidebar} />
 						<Routes>
 							<Route path='/' element={<Dashboard />} />

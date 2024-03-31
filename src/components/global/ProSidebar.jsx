@@ -48,6 +48,9 @@ export const ProSidebar = () => {
 				'& .ps-sidebar-root': {
 					background: `${colors.primary[400]}`,
 				},
+				'& .ps-sidebar-root.ps-collapsed': {
+					height: '100%',
+				},
 				'& .ps-sidebar-container': {
 					backgroundColor: 'transparent !important',
 				},
