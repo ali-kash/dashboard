@@ -14,7 +14,10 @@ A data table that utilizes multiple built in data filters.
 
 ### Profile Form -
 
-The form has validation using regex for some input fields. When submitting a valid form, the data will be displayed in the console.
+- The form has validation using regex for some input fields.
+- When submitting a valid form, the data will be displayed in the console.
+- [Formik](https://www.npmjs.com/package/formik)
+- [Yup](https://www.npmjs.com/package/yup) (validation)
 
 ## Calendar -
 
