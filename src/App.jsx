@@ -17,8 +17,7 @@ import Form from './scenes/form'
 import Calendar from './scenes/calendar'
 import Bar from './scenes/bar'
 import Pie from './scenes/pie'
-// import Line from './scenes/line'
-// import Geography from './scenes/geography'
+import Line from './scenes/line'
 // import Login from './scenes/login'
 
 import './styles/global.scss'
@@ -50,8 +49,7 @@ function App() {
 							<Route path='/calendar' element={<Calendar />} />
 							<Route path='/bar' element={<Bar />} />
 							<Route path='/pie' element={<Pie />} />
-							{/* <Route path='/line' element={<Line />} /> */}
-							{/* <Route path='/geography' element={<Geography />} /> */}
+							<Route path='/line' element={<Line />} />
 						</Routes>
 					</main>
 				</div>

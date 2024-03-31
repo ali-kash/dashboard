@@ -219,13 +219,13 @@ export const ProSidebar = () => {
 							selected={selected}
 							setSelected={setSelected}
 						/>
-						<Item
+						{/* <Item
 							title='Geography Chart'
 							to='/geography'
 							icon={<MapOutlinedIcon />}
 							selected={selected}
 							setSelected={setSelected}
-						/>
+						/> */}
 					</Box>
 				</Menu>
 			</Sidebar>
