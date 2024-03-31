@@ -7,6 +7,7 @@ Created this project using some basic technology to showcase an admin dashboard.
 - Dark/Light Mode ✔✔
 - Material UI for the production of prebuilt components, but any framework such as Bootstrap or TailwindElements could be used in it's place.
 - **This is in no means any where near close to a production ready site. I put this together within threed days just to learn more about the visualization of different types of data.**
+- With more time this could have been fully responsive, with user authentication, some framer motion functionality, and much more.
 
 Links in the sidebar navigation go to pages with specific content.
 
