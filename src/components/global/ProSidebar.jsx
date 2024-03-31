@@ -47,8 +47,6 @@ export const ProSidebar = () => {
 			sx={{
 				'& .ps-sidebar-root': {
 					background: `${colors.primary[400]}`,
-				},
-				'& .ps-sidebar-root.ps-collapsed': {
 					height: '100%',
 				},
 				'& .ps-sidebar-container': {
@@ -189,13 +187,6 @@ export const ProSidebar = () => {
 							title='Calendar'
 							to='/calendar'
 							icon={<CalendarTodayOutlinedIcon />}
-							selected={selected}
-							setSelected={setSelected}
-						/>
-						<Item
-							title='FAQ Page'
-							to='/faq'
-							icon={<HelpOutlineOutlinedIcon />}
 							selected={selected}
 							setSelected={setSelected}
 						/>

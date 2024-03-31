@@ -1,6 +1,6 @@
 # Admin Dashboard
 
-- [View Live](https://dashboard-sandy-gamma-59.vercel.app/)
+[View Live](https://dashboard-sandy-gamma-59.vercel.app/)
 
 Created this project using some basic technology to showcase an admin dashboard. For the sake of time there is no user validation, but just a presentation of using modern day technologies to display multiple types of data.
 
