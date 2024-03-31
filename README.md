@@ -24,7 +24,7 @@ A data table that utilizes multiple built in data filters.
 - [Formik](https://www.npmjs.com/package/formik)
 - [Yup](https://www.npmjs.com/package/yup) (validation)
 
-## Calendar -
+### Calendar -
 
 - Existing events can be pulled in to display in the Calendar.
 - Click on a date to add an event, click on the event to delete it.
@@ -33,7 +33,7 @@ A data table that utilizes multiple built in data filters.
 - This could be expanded upon in many ways to create a more detailed calendar utility.
 - [FullCalendar React Component](https://www.npmjs.com/package/@fullcalendar/react)
 
-## Charts
+### Charts
 
 - Using [Nivo.Rocks](https://nivo.rocks/) for the chart design and functionality.
 - Data being used is provided via Nivo.Rocks for the sake of learning.
